@@ -1,0 +1,46 @@
+.line {
+   position: relative;
+}
+
+.line-mask {
+   position: absolute;
+   top: 3px;
+   right: 0;
+   background-color: black;
+   opacity: 0.65;
+   height: 100%;
+   width: 100%;
+   z-index: 2;
+}
+
+.dazzel-text {
+   display: block;
+   overflow: hidden;
+}
+
+
+/* body::-webkit-scrollbar {
+   display: block;
+   width: 5px;
+   height: 8px !important; 
+ 
+  
+ }
+  
+ body::-webkit-scrollbar-track {
+   box-shadow: none;
+   background: transparent;
+   position: absolute !important;;
+   left: 0;
+   right: 0;
+  
+ }
+  
+ body::-webkit-scrollbar-thumb {
+   background-color: rgba(0, 0, 0, 0.618);
+ 
+   opacity: 1;
+
+   border-radius: 10px;
+   position:absolute;
+ } */
